@@ -1,3 +1,16 @@
+
+## Visualizacion del tutorial
+~~~
+docker run -d -p 8081:80 docker/getting-started
+~~~
+_Visualizacion en localhost/_
+## Detencion de servicios
+~~~
+docker compose stop
+docker compose down
+~~~
+---
+
 ## Creación de la carpeta 
 ~~~
 mkdir docker-moodle && cd docker-moodle 
